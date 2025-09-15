@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Bienvenue chez Hassan</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { margin: 0; font-family: 'Segoe UI', sans-serif; background: #f9f9f9; color: #333; }
+    header { background: #0078D7; color: white; padding: 40px 20px; text-align: center; }
+    nav { background: #005a9e; padding: 10px; text-align: center; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    section { padding: 40px 20px; max-width: 800px; margin: auto; }
+    h2 { color: #0078D7; }
+    footer { background: #333; color: white; text-align: center; padding: 20px; }
+    .btn { background: #0078D7; color: white; padding: 10px 20px; border: none; cursor: pointer; }
+    .btn:hover { background: #005a9e; }
+    form input, form textarea { width: 100%; padding: 10px; margin: 10px 0; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Bienvenue chez Hassan</h1>
+    <p>Développeur, créatif et passionné par l'innovation</p>
+  </header>
+
+  <nav>
+    <a href="#about">À propos</a>
+    <a href="#projects">Projets</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>À propos de moi</h2>
+    <p>Je suis Hassan, développeur basé en Afrique centrale. J’aime créer des solutions numériques qui ont un impact réel. Mon objectif est de rendre la technologie accessible à tous.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Mes projets</h2>
+    <ul>
+      <li><strong>Plateforme éducative</strong> – Un site pour aider les étudiants à apprendre en ligne.</li>
+      <li><strong>Application mobile communautaire</strong> – Pour connecter les jeunes entrepreneurs.</li>
+      <li><strong>Blog tech</strong> – Articles sur l’innovation et les outils numériques.</li>
+    </ul>
+    <button class="btn">Voir plus sur GitHub</button>
+  </section>
+
+  <section id="contact">
+    <h2>Contactez-moi</h2>
+    <form name="contact" method="POST" data-netlify="true">
+      <input type="text" name="nom" placeholder="Votre nom" required>
+      <input type="email" name="email" placeholder="Votre email" required>
+      <textarea name="message" rows="5" placeholder="Votre message" required></textarea>
+      <button class="btn" type="submit">Envoyer</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Hassan. Tous droits réservés.</p>
+  </footer>
+
+</body>
+</html>
